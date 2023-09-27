@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Belanosima', sans-serif;
+}
+
+html{
+    background-color: #97FEED;
+}
+
+.wrapper {
+    background-color: #35A29F;
+    margin: 0 auto;
+    width: 50%;
+    padding: 100px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 30px;
+    box-shadow: 5px 10px 20px;
+}
+
+.wrapper:hover{
+    box-shadow: 10px 20px 40px;
+    transition: box-shadow 0.5s;
+}
+
+span {
+    display: block;
+    text-align: center;
+    font-size: 50px;
+}
+
+p {
+    color: #071952;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+    word-wrap: break-word;
+    line-height: 25px;
+    margin: 30px 0;
+    opacity: 0;
+}
+.fade{
+    opacity: 1;
+    transition: opacity 2s;
+}
+
+#btn {
+    display: block;
+    background-color: #071952;
+    color: #97FEED;
+    border: none;
+    border-radius: 10px;
+    font-size: xx-large;
+    padding: 10px;
+    margin: auto;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 02px 03px 07px black;
+}
+
+
+@media (min-width: 200px) and (max-width: 850px) {
+    .wrapper {
+        background-color: #35A29F;
+        margin: 0 auto;
+        width: 70%;
+        padding: 5%;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+        border-radius: 30px;
+        box-shadow: 5px 10px 20px;
+    }
+    
+    .wrapper:hover{
+        box-shadow: 10px 20px 40px;
+        transition: box-shadow 0.5s;
+    }
+
+    #btn {
+        display: block;
+        background-color: #071952;
+        color: #97FEED;
+        border: none;
+        border-radius: 10px;
+        font-size: large;
+        padding: 10px;
+        margin: auto;
+        cursor: pointer;
+        text-align: center;
+        box-shadow: 02px 03px 07px black;
+    }
+}
+
+@media (min-width: 850px) and (max-width: 1024px) {
+    .wrapper {
+        background-color: #35A29F;
+        margin: 0 auto;
+        width: 50%;
+        padding: 5%;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+        border-radius: 30px;
+        box-shadow: 5px 10px 20px;
+    }
+    
+    .wrapper:hover{
+        box-shadow: 10px 20px 40px;
+        transition: box-shadow 0.5s;
+    }
+
+    #btn {
+        display: block;
+        background-color: #071952;
+        color: #97FEED;
+        border: none;
+        border-radius: 10px;
+        font-size: large;
+        padding: 10px;
+        margin: auto;
+        cursor: pointer;
+        text-align: center;
+        box-shadow: 02px 03px 07px black;
+    }
+}
